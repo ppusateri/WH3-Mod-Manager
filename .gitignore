@@ -92,4 +92,7 @@ out/
 
 dumps
 
+# Temporary files directory
+temp/
+
 sublog.txt
