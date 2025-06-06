@@ -23,6 +23,14 @@ Features not present in the CA launcher:
 If you use `nvm`, run `nvm use` in the project directory. The included `.nvmrc`
 specifies Node `20.18.0`.
 
+Before running any `yarn` commands, ensure that Yarn `1.22.19` is available. The
+`scripts/setup.sh` script checks for an existing `yarn` binary and only installs
+it when missing:
+
+```bash
+./scripts/setup.sh
+```
+
 ## Run in development
 
 ```bash
